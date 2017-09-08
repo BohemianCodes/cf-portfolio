@@ -1,0 +1,161 @@
+.jumbotron {
+	background-image: url("../img/mist_road.jpeg");
+	margin-bottom: 0;
+	min-height: 50%;
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.jumbotron p {
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.jumbotron h1 {
+	color: #FFCCFF;
+	font-family: 'Fredericka the Great',  fantasy;
+	text-shadow: 2px 2px #330066;
+}
+
+.container {
+	clear: both;
+}
+
+/*Contact Me Styles*/
+
+* {box-sizing: border-box;}
+
+body {
+	background-color: #fffeea;
+}
+
+.title {
+	background-color: pink;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	margin-top: 70px;
+}
+
+.title h1 {
+	font-family: 'Cabin Sketch', serif;
+	font-size: 3em;
+	text-shadow: 1px 1px #FFBF00;
+	margin: 5px 0px;
+}
+
+.bird-box {
+	margin-top: 200px;
+	height: 200px;
+	width: 500px;
+	padding: 20px;
+	border: 3px solid #604C50;
+	border-radius: 2%;
+	background-image: url("../img/flight.jpg");
+	text-align: right;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 1.5em;
+	color: #6D595F;
+	float: left;
+}
+
+.bird-box h3 {
+	margin-top: 0;
+}
+
+.bird-box p {
+	font-size: 14px;
+}
+
+.contact-info {
+	margin-top: 200px;
+	margin-left: 20px;
+	height: 200px;
+	width: 500px;
+	background-color: white;
+	float: left;
+	padding: 20px;
+	border: 3px solid #604C50;
+	border-radius: 2%;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 1.5em;
+	color: #6D595F;
+}
+
+.contact-info span:hover,
+.bird-box span:hover {
+	color: #990000;
+}
+
+
+/*Navigation-Menu*/
+
+.nav {
+	background-color: #003333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.nav ul{
+	
+	margin-top: 0px;
+	list-style: none;
+}
+
+.nav ul li {
+	display: inline-block;
+	padding: 20px 10px;
+	font-variant: small-caps;
+	letter-spacing: 0.05em;
+	float: right;
+	margin-right: 30px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.nav>a {
+	display: inline-block;
+	padding: 20px 10px;
+	font-variant: small-caps;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	float: left;
+	margin-left: 30px;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.nav a:hover {
+	font-variant: none;
+	color: #ff0;
+}
+
+li, .nav>a {
+	font-family: Georgia, Book Antiqua, Palatino, serif;
+}
+
+/*FAQ Styles*/
+
+.panel-group {
+	margin-top: 150px;
+}
+
+.panel-body,
+.panel-title {
+	font-family: 'Lato';
+}
+
+.panel-default>.panel-heading {
+	background-color: #B1EDA6;
+}

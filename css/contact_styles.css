@@ -1,0 +1,97 @@
+* {box-sizing: border-box;}
+
+body {
+	background-color: #fffeea;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.title {
+	background-color: pink;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	margin-top: 70px;
+}
+
+.title h1 {
+	font-family: 'Cabin Sketch', serif;
+	font-size: 3em;
+	text-shadow: 1px 1px #FFBF00;
+	margin: 5px 0px;
+}
+
+.contact-box {
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	height: 200px;
+	width: 500px;
+	background-color: white;
+	padding: 20px;
+	border: 3px solid #604C50;
+	border-radius: 2%;
+	background-image: url("../img/flight.jpg");
+	text-align: right;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 1.5em;
+	color: #6D595F;
+}
+
+/*Navigation-Menu*/
+
+.nav {
+	background-color: #003333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.nav ul{
+	
+	margin-top: 0px;
+	list-style: none;
+}
+
+.nav ul li {
+	display: inline-block;
+	padding: 20px 10px;
+	font-variant: small-caps;
+	letter-spacing: 0.05em;
+	float: right;
+	margin-right: 30px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.nav>a {
+	display: inline-block;
+	padding: 20px 10px;
+	font-variant: small-caps;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	float: left;
+	margin-left: 30px;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.nav a:hover {
+	font-variant: none;
+	color: #ff0;
+}
+
+li, a {
+	font-family: Georgia, Book Antiqua, Palatino, serif;
+}
