@@ -170,3 +170,11 @@ li, .nav>a {
 	font-family: 'Allura';
 	font-size: 1.5em;
 }
+
+#carousel-example-generic {
+    margin-top: 71px;
+}
+
+.item {
+	max-height: 500px;
+}
