@@ -97,10 +97,10 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 1;
 }
 
-.nav ul{
-	
+.nav ul{	
 	margin-top: 0px;
 	list-style: none;
 }
