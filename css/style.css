@@ -183,3 +183,13 @@ li, .nav>a {
 	margin-left: -15px;
 	margin-right: -15px;
 }
+
+/*Grid*/
+
+#work h2 {
+	text-align: center;
+}
+
+.box img {
+	margin: 10px;
+}
