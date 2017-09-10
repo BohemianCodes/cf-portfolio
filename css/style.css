@@ -189,31 +189,36 @@ li, .nav>a {
 
 /*about page*/
 
-@media (min-width: 576px) {
-	 #intro {
-		margin-top: 200px;
+@media (min-width: 768px) {
+	#intro {
+	margin-top: 200px;
+	}	
+}
+
+@media (max-width: 992px) {
+	#skill {
+	margin-top: 50px;
 	}
 }
 
-@media (min-width: 768px) {
-		#skill {
-		margin-top: 200px;
+@media (min-width: 992px) {
+	#skill {
+	margin-top: 200px;
 	}
 }
 
 @media (max-width: 768px) {
-
-		#image, #intro, #skill {
-			margin: 0 auto;
-		}
-		#intro {
-			text-align: center;
-		}
+	#image, #intro, #skill {
+		margin: 0 auto;
+	}
+	#intro {
+		text-align: center;
+	}
 }
 
 #image {
-			max-width: 400px;
-			margin-top: 200px;
+	max-width: 400px;
+	margin-top: 200px;
 		}
 
 #skill, #intro {
