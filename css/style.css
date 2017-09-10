@@ -5,6 +5,7 @@
 body {
 	background-color: #fffeea;
 	color: #34495e;
+	font-family: 'Lato';
 }
 
 #portfolio {
@@ -194,11 +195,10 @@ li, .nav>a {
 	}
 
 @media (min-width: 768px) {
-	#skill {
+		#skill {
 		margin-top: 200px;
 	}
 }
-
 
 @media (max-width: 768px) {
 
@@ -221,14 +221,19 @@ li, .nav>a {
 
 #skill {
 	background-color: #5AD4C2;
-	color: #fff;
 	padding-top: 20px;
 	padding-bottom: 25px;
+	text-align: center;
+}
+
+#skill li {
+	font-family: 'Lato';
 }
 
 #intro p,
 #intro h2 {
 	padding: 10px;
+	font-family: 'Lato';
 }
 
 .col-md-4 img {
