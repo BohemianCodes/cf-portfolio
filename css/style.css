@@ -193,6 +193,7 @@ li, .nav>a {
 	 #intro {
 		margin-top: 200px;
 	}
+}
 
 @media (min-width: 768px) {
 		#skill {
