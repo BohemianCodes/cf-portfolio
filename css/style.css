@@ -3,7 +3,8 @@
 * {box-sizing: border-box;}
 
 body {
-	background-color: #D6C7BD;
+	background-color: #fffeea;
+	color: #34495e;
 }
 
 #portfolio {
@@ -16,6 +17,7 @@ body {
 	text-align: center;
 	position: fixed;
 	margin-top: 70px;
+	z-index: 1;
 }
 
 .title h1 {
@@ -183,3 +185,77 @@ li, .nav>a {
 		margin: 30px 0 20px;
 	}
 }
+
+/*about page*/
+
+@media (min-width: 576px) {
+	 #intro {
+		margin-top: 200px;
+	}
+
+@media (min-width: 768px) {
+	#skill {
+		margin-top: 200px;
+	}
+}
+
+
+@media (max-width: 768px) {
+
+		#image, #intro, #skill {
+			margin: 0 auto;
+		}
+		#intro {
+			text-align: center;
+		}
+}
+
+#image {
+			max-width: 400px;
+			margin-top: 200px;
+		}
+
+#skill, #intro {
+	padding: 0 20px;
+}
+
+#skill {
+	background-color: #5AD4C2;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+
+#intro p,
+#intro h2 {
+	padding: 10px;
+}
+
+.col-md-4 img {
+	width: 100%;
+	border: 3px groove black;
+}
+
+.main-text {
+	padding-top: 40px;
+}
+
+#skill-list {
+	font-family: 
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+
+#skill h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
