@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Hello World!</title>
+    <title>Bohemian Codes</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Sans|Allura" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Lato|Philosopher|Allura" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -29,17 +29,17 @@
 
     <!-- Navigation Menu -->
     <div class="nav">
-      <a href="index.html">home</a>
+      <a href="#index">home</a>
 
       <ul>
-        <li><a href="faq.html">faq</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a href="contact.html">contact</a></li>
+        <li><a href="#faq">faq</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
       </ul>
     </div> <!-- end nav -->
     
     <!-- Carousel -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="index">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
         <!-- Indicators -->
@@ -83,9 +83,14 @@
       </div>
     </div><!-- /container -->
 
-    <div class="container" id="work">
-      <h2>Work</h2>
-      <div class="row">
+    <div class="container-fluid" id="work">
+      <div class="title">
+        <h1>Work</h1>
+      </div> <!-- end title -->
+    </div> <!-- end container-fluid -->
+
+    <div class="container">
+
         <div class="col-md-3 col-sm-6 box"><img src="img/fire.jpg" class="img-responsive"></div>
         <div class="col-md-3 col-sm-6 box"><img src="img/fire.jpg" class="img-responsive"></div>
         <div class="col-md-3 col-sm-6 box"><img src="img/fire.jpg" class="img-responsive"></div>
@@ -122,6 +127,142 @@
 
 
     </div> <!-- /container -->
+
+    <!-- About Page -->
+    <div class="container-fluid" id="about">
+      <div class="title">
+        <h1>About Me</h1>
+      </div> <!-- end title -->
+    </div> <!-- end container-fluid -->
+
+    <div class="container">
+        <div class="row">
+
+          <div class="col-md-4 col-sm-6" id="image">
+            <img src="img/selfie.jpg" alt="Eliane">
+          </div><!-- end image -->
+
+          <div class="col-md-4 col-sm-6" id="intro">
+            <h2>Introduction</h2>
+            <p>Web Developer based in Berlin</p>
+          </div> <!-- end intro -->
+
+          <div class="col-md-4 col-sm-12" id="skill">
+            <h3>My Skills</h3>
+            <ul class="list-group" id="skill-list">
+              <li class="list-group-item">Making fire</li>
+              <li class="list-group-item">Driving Scooter</li>
+              <li class="list-group-item">Picking Cherries</li>
+            </ul>
+          </div> <!-- end skill -->
+        </div> <!-- end row -->
+
+      <div class="main-text">
+        <h3>My Story</h3>
+          <p>
+            I spent many years of my life traveling. In February 2010, my heart called me to quit the university studies I was half-heartedly pursuing at the time and gave me a little push to follow my wish to travel. 2011, at the age of 27, I embarked on a colorful long-term odysee that satisfied my heart's longings and transformed into a profound inwards journey as well.
+          </p>
+          <p>
+            Since then I have visited 21 countries on 4 continents. But, I never had intentions collecting stamps or breaking any records. I have re-visited places many times, like my beloved Southern Mexico. I always travelled on a shoestring, just making enough money on the go.
+          </p>
+          <p>
+            I maintained a small, simple wordpress.com blog 'finding neverland' about my trips.
+          </p>
+          <p>
+            Then, In 2014, I first set foot onto the fair island of Ireland. I fell in love at once. It was to unfold as a beautiful relationship. I lost my heart to the wild west of the Emerald Isle- I must admit, she was always very kind to me, lifted me up when I was down, with her blue skies and sheepy clouds, magnificent wild landscapes and magical water's edges to contemplate into the nature of life.
+          </p>
+          <p>
+            Now, after having passed the threshold of 33 years and feeling very pleased to have had so many beautiful experiences around the world, I did start to feel it was time for another profound change. The times of budget traveling, sleeping in hammocks and picking cherries are but beautiful memories. I might even say, it was time to grow up a little, find a well-paying work I am passionate about, and a way to connect with the world that is so rapidly evolving all around.
+          </p>
+          <p>
+            Becoming a Web Developer seems to have it all: an environment where you constantly evolve and learn, where you have the possibility to be flexible and free with the jobs you take, the chance to make good money if you want, become part of a large community and have a work that challenges you. During my jobs in customer service I learnt, that even though I enjoy helping people, I really crave for a challenge that satisfies both my creative and analytical mind.
+          </p>
+          <p>
+            In the light of this change, I moved back to Berlin, the city I had left in 2011 to travel the world. All colorful experiences live inside me, and I enjoy my return to Berlin and my path to becoming a developer.
+          </p>
+        </div> <!-- end main -->
+    </div> <!-- end of about page -->
+
+    <!-- FAQ -->
+    <div class="container-fluid" id="faq">
+      <div class="title">
+        <h1>FAQ</h1>
+      </div> <!-- end title -->
+    </div> <!-- end container-fluid -->
+
+    <div class="container">
+
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                Why did you decide to become a web developer?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+              I have a little <a href="https://bohemiancodess.wordpress.com/">wordpress blog</a> which describes how I took the change 
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                What are your favourite dev tools?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+              I love Bootstrap and I loved getting into JavaScript.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                Another question?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+              Another answer.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id="contact">
+      <div class="title">
+        <h1>Contact</h1>
+      </div> <!-- end title -->
+    </div> <!-- end container-fluid -->
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-6 bird-box">
+          <h3>Eliane Zacharias  <span class="glyphicon glyphicon-heart"></span></h3>
+          <p>Web Developer &nbsp;&nbsp;</p>
+        </div>
+        
+        <div class="col-6 contact-info">
+          <p><span class="glyphicon glyphicon-envelope"></span> &nbsp;bohemiancodes@gmail.com</p>
+          <p><span class="glyphicon glyphicon-map-marker"></span> &nbsp;Allee der Kosmonauten 21, Berlin Lichtenberg</p>
+          <p><span class="glyphicon glyphicon-phone-alt"></span> &nbsp;030-63913330</p>
+          <p><span class="glyphicon glyphicon-phone"></span> &nbsp;01578-3525700</p>
+        </div> <!-- end contact-info -->
+      </div> <!-- end row -->
+    </div> <!-- end container -->
+
+
 
 
     <!-- ============================= -->
