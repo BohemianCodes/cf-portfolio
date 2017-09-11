@@ -5,7 +5,6 @@
 body {
 	background-color: #fffeea;
 	color: #34495e;
-	font-family: 'Lato';
 }
 
 #portfolio {
@@ -157,7 +156,7 @@ li, .nav>a {
 	margin-top: 71px;
 }
 
-.item {
+.item img {
 	max-height: 500px;
 }
 
