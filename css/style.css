@@ -3,7 +3,7 @@
 * {box-sizing: border-box;}
 
 body {
-	background-color: #fffeea;
+	background-color: #F9F3C5;
 	color: #34495e;
 }
 
@@ -12,16 +12,30 @@ body {
 }
 
 .title {
-	background-color: pink;
+	/*background-color: #592941;*/
 	width: 100%;
 	text-align: center;
+	color: black;
+	height: 70px;
+	border-bottom: 3px solid #003333;
+	border-top: 3px solid #003333;
 }
 
 .title h1 {
-	font-family: 'Cabin Sketch', serif;
+	font-family: 'Macondo', serif;
 	font-size: 3em;
-	text-shadow: 1px 1px #FFBF00;
+	text-shadow: 1px 1px #FCB05F;
 	margin: 5px 0px;
+	line-height: 60px;
+}
+
+#about,
+#work, 
+#faq, 
+#contact {
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 50px;
 }
 
 .bird-box {
@@ -184,13 +198,6 @@ li, .nav>a {
 }
 
 /*about page*/
-
-#about, #work {
-	margin-left: -15px;
-	margin-right: -15px;
-	margin-top: 30px;
-	margin-bottom: 50px;
-}
 
 }
 
