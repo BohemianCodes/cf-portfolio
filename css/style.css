@@ -5,6 +5,7 @@
 body {
 	background-color: #F9F3C5;
 	color: #34495e;
+  position: relative;
 }
 
 #portfolio {
@@ -36,12 +37,11 @@ body {
 	margin-left: -15px;
 	margin-right: -15px;
 	margin-bottom: 50px;
+	margin-top: 20px;
 }
 
 .bird-box {
-	margin-top: 200px;
-	height: 200px;
-	width: 500px;
+	height: 210px;
 	padding: 20px;
 	border: 3px solid #604C50;
 	border-radius: 2%;
@@ -50,7 +50,6 @@ body {
 	font-family: 'Philosopher', sans-serif;
 	font-size: 1.5em;
 	color: #6D595F;
-	float: left;
 }
 
 .bird-box h3 {
@@ -62,18 +61,14 @@ body {
 }
 
 .contact-info {
-	margin-top: 200px;
-	margin-left: 20px;
-	height: 200px;
-	width: 500px;
 	background-color: white;
-	float: left;
 	padding: 20px;
 	border: 3px solid #604C50;
 	border-radius: 2%;
 	font-family: 'Philosopher', sans-serif;
 	font-size: 1.5em;
 	color: #6D595F;
+	height: 210px;
 }
 
 .contact-info span:hover,
@@ -81,10 +76,15 @@ body {
 	color: #990000;
 }
 
+.contact-info,
+.bird-box {
+	margin-bottom: 50px;
+}
+
 
 /*Navigation-Menu*/
 
-.nav {
+/*.nav {
 	background-color: #003333;
 	position: fixed;
 	top: 0;
@@ -135,13 +135,10 @@ body {
 
 li, .nav>a {
 	font-family: Georgia, Book Antiqua, Palatino, serif;
-}
+}*/
 
 /*FAQ Styles*/
 
-.panel-group {
-	margin-top: 30px;
-}
 
 .panel-body,
 .panel-title {

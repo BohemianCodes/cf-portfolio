@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Bohemian Codes</title>
+    <title>CF-Portfolio Page</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -25,18 +25,35 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar">
 
-    <!-- Navigation Menu -->
-    <div class="nav">
-      <a href="#index">home</a>
-
-      <ul>
-        <li><a href="#faq">faq</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>
-    </div> <!-- end nav -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="projectName">
+            <a href="#">Project name</a>
+          </div> <!--end projectName -->
+        </div> <!-- end header -->
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="navbar-collapse collapse">
+            <ul class="navbar-nav nav">
+              <li><a href="#index">home</a></li>
+              <li><a href="#faq">faq</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </div> <!-- end collapse div -->
+        
+      </div> <!-- end nav container-fluid -->
+    </nav> <!-- end navigation -->
     
     <!-- Carousel -->
     <div class="container-fluid" id="index">
@@ -248,12 +265,12 @@
 
       <div class="row">
 
-        <div class="col-6 bird-box">
+        <div class="col-md-6 bird-box">
           <h3>Eliane Zacharias  <span class="glyphicon glyphicon-heart"></span></h3>
           <p>Web Developer &nbsp;&nbsp;</p>
         </div>
         
-        <div class="col-6 contact-info">
+        <div class="col-md-6 contact-info">
           <p><span class="glyphicon glyphicon-envelope"></span> &nbsp;bohemiancodes@gmail.com</p>
           <p><span class="glyphicon glyphicon-map-marker"></span> &nbsp;Allee der Kosmonauten 21, Berlin Lichtenberg</p>
           <p><span class="glyphicon glyphicon-phone-alt"></span> &nbsp;030-63913330</p>
