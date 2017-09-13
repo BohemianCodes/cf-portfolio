@@ -30,16 +30,6 @@ body {
 	width: 100%
 }
 
-#contact h1 {
-	color: #86B1C0;
-	font-family: 'Macondo', serif;
-	font-size: 3em;
-	text-shadow: 2px 2px white;
-	margin: 5px 0px;
-	line-height: 60px;
-	width: 100%
-}
-
 #about,
 #work, 
 #faq, 
@@ -62,7 +52,7 @@ body {
 	
     padding-top: 0;
     height: 500px;
-		text-align: left;
+		text-align: right;
 		font-family: 'Philosopher', sans-serif;
 		font-size: 1.5em;
 }
@@ -77,6 +67,16 @@ body {
 
 .contact-info span:hover {
 	color: #990000;
+}
+
+#contact h1 {
+	color: #86B1C0;
+	font-family: 'Macondo', serif;
+	font-size: 3em;
+	text-shadow: 2px 2px black;
+	margin: 5px 0px;
+	line-height: 60px;
+	width: 100%
 }
 
 /*Navigation-Menu*/
@@ -136,6 +136,10 @@ li, .nav>a {
 
 .anchor {
 	padding-top: 60px;
+}
+
+.dropdown-menu li a {
+	color: black;
 }
 
 #contact {
@@ -255,6 +259,4 @@ h3 {
 	text-align: center;
 	text-transform: uppercase;
 }
-
-
 
