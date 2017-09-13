@@ -84,58 +84,62 @@ body {
 
 /*Navigation-Menu*/
 
-/*.nav {
-	background-color: #003333;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 1;
+.navbar {
+	padding: 10px;
 }
 
-.nav ul{	
+.projectName a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Overlock SC', serif;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 1em;
+}
+
+.navbar {
+	background-color: #003333;
+}
+
+
+/*.nav ul{	
 	margin-top: 0px;
 	list-style: none;
-}
+}*/
 
-.nav ul li {
-	display: inline-block;
-	padding: 20px 10px;
+.navbar ul li {
 	font-variant: small-caps;
-	letter-spacing: 0.05em;
-	float: right;
-	margin-right: 30px;
 }
 
-.nav ul li a {
+.navbar ul li a {
 	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	transition: color 600ms;
+	-webkit-transition: color 600ms; 
+}
+
+.navbar ul li a {
+	
+	font-variant: small-caps;
 	font-size: 22px;
 	color: white;
 	transition: color 600ms;
 	-webkit-transition: color 600ms;
 }
 
-.nav>a {
-	display: inline-block;
-	padding: 20px 10px;
-	font-variant: small-caps;
-	letter-spacing: 0.05em;
-	text-decoration: none;
-	font-size: 22px;
-	color: white;
-	float: left;
-	margin-left: 30px;
-	transition: color 600ms;
-	-webkit-transition: color 600ms;
-}
-
-.nav a:hover {
-	font-variant: none;
+.navbar a:hover {
+	/*font-variant: none;*/
 	color: #ff0;
 }
 
 li, .nav>a {
 	font-family: Georgia, Book Antiqua, Palatino, serif;
-}*/
+}
+
+.anchor {
+	padding-top: 60px;
+}
 
 /*FAQ Styles*/
 
@@ -250,5 +254,6 @@ h3 {
 	text-align: center;
 	text-transform: uppercase;
 }
+
 
 
