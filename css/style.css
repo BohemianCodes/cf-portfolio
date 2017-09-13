@@ -30,6 +30,16 @@ body {
 	width: 100%
 }
 
+#contact h1 {
+	color: #86B1C0;
+	font-family: 'Macondo', serif;
+	font-size: 3em;
+	text-shadow: 2px 2px white;
+	margin: 5px 0px;
+	line-height: 60px;
+	width: 100%
+}
+
 #about,
 #work, 
 #faq, 
