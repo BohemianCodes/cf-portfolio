@@ -111,18 +111,8 @@ body {
 .navbar ul li a {
 	text-decoration: none;
 	font-size: 22px;
-	color: white;
 	transition: color 600ms;
 	-webkit-transition: color 600ms; 
-}
-
-.navbar ul li a {
-	
-	font-variant: small-caps;
-	font-size: 22px;
-	color: white;
-	transition: color 600ms;
-	-webkit-transition: color 600ms;
 }
 
 .navbar a:hover {
