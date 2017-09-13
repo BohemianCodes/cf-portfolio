@@ -8,7 +8,7 @@ body {
   position: relative;
 }
 
-#portfolio {
+#goals {
 	margin-top: 25px;
 }
 
@@ -32,7 +32,7 @@ body {
 /*Contact Styles*/
 #contact {
 	/*Add a background image*/
-    background-image: url("../img/urban.jpg");
+    background-image: url("../img/dunloe_pan.jpg");
 	/*Give the background a fixed position does it not scroll when you scroll*/
     background-attachment: fixed;
    /*Have the background cover the entire div section*/
@@ -40,22 +40,38 @@ body {
 	
     padding-top: 0;
     height: 500px;
-		text-align: right;
 		font-family: 'Arvo', sans-serif;
 		font-size: 1.5em;
 }
 
-.contact-info {
+.contact-info,
+.contact-info2 {
 	margin-top: 50px;
-	padding-left:100px;
 	color: white;
 	text-shadow: 1px 1px black;
 	font-weight: 500;
 }
 
-.contact-info span:hover {
+.contact-info span:hover,
+.contact-info2 span:hover {
 	color: #990000;
 }
+
+.contact-row p {
+	color: white;
+	text-shadow: 1px 1px black;
+	font-weight: 500;
+	text-align: center;
+}
+
+.contact-info p {
+	text-align: right;
+}
+
+.contact-info2 p {
+	text-align: left;
+}
+
 
 #contact h1 {
 	color: #86B1C0;
