@@ -78,28 +78,30 @@ body {
 	padding: 10px;
 }
 
-.projectName a {
-	color: white;
+.projectName {
+	color: white !important;
+	background-color: black;
 	text-decoration: none;
-	font-family: 'Overlock SC', serif;
-	text-transform: uppercase;
+	font-family: 'Pathway Gothic One', serif;
 	font-weight: 100;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
 .navbar {
-	background-color: #003333;
+	background-color: #FCFCFC;
 }
 
-.navbar ul li {
+/*.navbar ul li {
 	font-variant: small-caps;
-}
+}*/
 
 .navbar ul li a {
 	text-decoration: none;
-	font-size: 22px;
+	font-size: 21px;
 	transition: color 600ms;
 	-webkit-transition: color 600ms; 
+	font-family: 'Pathway Gothic One', serif;
+
 }
 
 .navbar a:hover {
