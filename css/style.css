@@ -121,6 +121,9 @@ li, .nav>a {
 	color: black;
 }
 
+.navbar-toggle {
+	background-color: black;
+}
 
 /*FAQ Styles*/
 
