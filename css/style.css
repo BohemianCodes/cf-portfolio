@@ -13,9 +13,8 @@ body {
 }
 
 .title {
-	/*background-color: #592941;*/
 	text-align: center;
-	color: black;
+	color: #262525;
 	height: 70px;
 }
 
@@ -51,7 +50,7 @@ body {
 	padding-left:100px;
 	color: white;
 	text-shadow: 1px 1px black;
-	font-weight: 900;
+	font-weight: 500;
 }
 
 .contact-info span:hover {
@@ -60,12 +59,17 @@ body {
 
 #contact h1 {
 	color: #86B1C0;
-	font-family: 'Macondo', serif;
+	font-family: 'Permanent Marker', serif;
 	font-size: 3em;
 	text-shadow: 2px 2px black;
 	margin: 5px 0px;
 	line-height: 60px;
 	width: 100%
+}
+
+#contact {
+	margin-top: 60px;
+	margin-bottom: 0px;
 }
 
 /*Navigation-Menu*/
@@ -86,12 +90,6 @@ body {
 .navbar {
 	background-color: #003333;
 }
-
-
-/*.nav ul{	
-	margin-top: 0px;
-	list-style: none;
-}*/
 
 .navbar ul li {
 	font-variant: small-caps;
@@ -121,10 +119,6 @@ li, .nav>a {
 	color: black;
 }
 
-#contact {
-margin-top: 60px;
-margin-bottom: 0px;
-}
 
 /*FAQ Styles*/
 
@@ -186,7 +180,6 @@ margin-bottom: 0px;
 
 #image {
 	max-width: 400px;
-	margin-top: 50px;
 		}
 
 #skill, #intro {
@@ -194,7 +187,7 @@ margin-bottom: 0px;
 }
 
 #skill {
-	background-color: #5AD4C2;
+	background-color: #73C4B0;
 	padding-top: 20px;
 	padding-bottom: 25px;
 	text-align: center;
@@ -217,10 +210,6 @@ margin-bottom: 0px;
 
 .main-text {
 	padding-top: 40px;
-}
-
-#skill-list {
-	font-family: 
 }
 
 /*Story*/
@@ -249,9 +238,9 @@ h3 {
 }
 
 .title h1 {
-	font-family: 'Macondo', serif;
+	font-family: 'Permanent Marker', serif;
 	font-size: 3em;
-	text-shadow: 1px 1px #FCB05F;
+	text-shadow: 1px 1px #FA9958;
 	margin: 5px 0px;
 	line-height: 60px;
 	width: 100%
