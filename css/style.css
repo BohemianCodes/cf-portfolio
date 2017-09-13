@@ -33,7 +33,9 @@ body {
 #about,
 #work, 
 #faq, 
-#contact {
+#contact,
+#work1,
+#work2 {
 	margin-left: -15px;
 	margin-right: -15px;
 	margin-bottom: 50px;
