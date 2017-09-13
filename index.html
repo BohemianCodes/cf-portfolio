@@ -101,9 +101,7 @@
       </div>
     </div><!-- /container -->
 
-    <div class="container-fluid" id="work">
-      <div class="container anchor" id="process">
-      </div>
+    <div class="container-fluid anchor" id="work">
       <div class="title">
         <h1>Work</h1>
       </div> <!-- end title -->
@@ -150,9 +148,7 @@
     </div> <!-- /container -->
 
     <!-- About Page -->
-    <div class="container-fluid" id="about">
-      <div class="container anchor" id="process">
-      </div>
+    <div class="container-fluid anchor" id="about">
       <div class="title">
         <h1>About Me</h1>
       </div> <!-- end title -->
@@ -206,10 +202,28 @@
         </div> <!-- end main -->
     </div> <!-- end of about page -->
 
+        <div class="container-fluid anchor" id="contact">
+      <div class="title">
+        <h1>Contact</h1>
+      </div> <!-- end title -->
+
+      <div class="row">
+                
+        <div class="col-sm-6 col-xs-10 contact-info">
+          <h3>Eliane Zacharias  <span class="glyphicon glyphicon-heart"></span></h3>
+          <p>bohemiancodes@gmail.com &nbsp;<span class="glyphicon glyphicon-envelope"></span></p>
+          <p>Allee der Kosmonauten 21, Berlin Lichtenberg &nbsp;<span class="glyphicon glyphicon-map-marker"></span></p>
+          <p>030-63913330 &nbsp;<span class="glyphicon glyphicon-phone-alt"></span></p>
+          <p>01578-3525700 &nbsp;<span class="glyphicon glyphicon-phone"></span></p>
+        </div> <!-- end contact info -->
+        <div class="col-sm-6 col-xs-2"></div>
+      </div> <!-- end row -->
+ 
+
+    </div> <!-- end container for contact -->
+
     <!-- FAQ -->
-    <div class="container-fluid" id="faq">
-      <div class="container anchor" id="process">
-      </div>
+    <div class="container-fluid anchor" id="faq">
       <div class="title">
         <h1>FAQ</h1>
       </div> <!-- end title -->
@@ -262,33 +276,7 @@
         </div>
       </div>
     </div>
-
-    <div class="container-fluid" id="contact">
-      <div class="container anchor" id="process">
-      </div>
-      <div class="title">
-        <h1>Contact</h1>
-      </div> <!-- end title -->
-    </div> <!-- end container-fluid -->
-
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-md-6 bird-box">
-          <h3>Eliane Zacharias  <span class="glyphicon glyphicon-heart"></span></h3>
-          <p>Web Developer &nbsp;&nbsp;</p>
-        </div>
-        
-        <div class="col-md-6 contact-info">
-          <p><span class="glyphicon glyphicon-envelope"></span> &nbsp;bohemiancodes@gmail.com</p>
-          <p><span class="glyphicon glyphicon-map-marker"></span> &nbsp;Allee der Kosmonauten 21, Berlin Lichtenberg</p>
-          <p><span class="glyphicon glyphicon-phone-alt"></span> &nbsp;030-63913330</p>
-          <p><span class="glyphicon glyphicon-phone"></span> &nbsp;01578-3525700</p>
-        </div> <!-- end contact-info -->
-      </div> <!-- end row -->
-    </div> <!-- end container -->
-
+    
 
 
 
@@ -300,6 +288,23 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Can place script tags with JavaScript files here -->
+    <script type="text/javascript">
+      var $root = $('html, body');
+
+      $('.navbar-nav a').click(function() {
+        var href = $.attr(this, 'href');
+
+        if (href != undefined && href != '#') {
+          $root.animate({
+            scrollTop: $(href).offset().top
+          }, 500, function () {
+            window.location.hash = href;
+          });
+        }
+
+        return false;
+      });
+    </script>
 
   </body>
 </html>
