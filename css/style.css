@@ -6,24 +6,82 @@ body {
   position: relative;
 }
 
-#goals {
-	margin-top: 25px;
+/*Navigation-Menu*/
+
+.navbar {
+	padding: 10px;
 }
 
-.title {
-	text-align: center;
-	color: #262525;
-	height: 70px;
+.projectName {
+	color: white !important;
+	background-color: black;
+	text-decoration: none;
+	font-family: 'Pathway Gothic One', serif;
+	font-weight: 100;
+	font-size: 1.2em;
 }
 
-#about,
-#work, 
-#faq, 
-#contact,
-#work1,
-#work2 {
-	margin-bottom: 40px;
+.navbar {
+	background-color: #FCFCFC;
 }
+
+.navbar ul li a {
+	text-decoration: none;
+	font-size: 21px;
+	transition: color 600ms;
+	-webkit-transition: color 600ms; 
+	font-family: 'Pathway Gothic One', serif;
+}
+
+.navbar a:hover {
+	color: #ff0;
+}
+
+.anchor {
+	padding-top: 60px;
+}
+
+.dropdown-menu li a {
+	color: black;
+}
+
+.navbar-toggle {
+	background-color: black;
+}
+
+/*Carousel*/
+
+/*Carousel disappearing in smaller screens*/
+@media (max-width: 992px) {
+	#index {
+		display: none;
+	}	
+}
+
+.carousel-caption h3 {
+	font-size: 1.2em;
+	font-family: 'Pathway Gothic One', serif;
+}
+
+.quote-display {
+	font-family: 'Allura';
+	font-size: 1.3em;
+}
+
+#carousel-example-generic {
+	margin-top: 71px;
+}
+
+.item img {
+	max-height: 500px;
+}
+
+.carousel {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+/*Hero Image on smaller screens*/
 
 @media (max-width: 992px) {
 	.hero-image {
@@ -72,7 +130,128 @@ body {
 	}
 }
 
+/*Work (Grid)*/
+
+#work h2 {
+	text-align: center;
+	margin: 30px 0 ;
+}
+
+.box img {
+		padding: 15px 5px;
+	}
+
+@media (max-width: 768px) {
+	.box img {
+		margin: 30px auto;
+	}
+
+	#work h2{
+		margin: 30px 0 20px;
+	}
+}
+
+#goals {
+	margin-top: 25px;
+}
+
+/*About Section*/
+
+#image {
+	max-width: 400px;
+		}
+
+#skill h2, 
+#skill li,
+#intro h2,
+#intro p {
+	padding: 0 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#skill h2 {
+	padding-bottom: 10px;
+}
+
+#skill li {
+	padding: 20px;
+}
+
+#skill {
+	background-color: #73C4B0;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#skill h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#intro p,
+#intro h2 {
+	padding: 10px;
+	margin-top: 0;
+}
+
+@media (max-width: 768px) {
+	#intro {
+		margin-top: 20px;
+	}
+}
+
+.col-md-4 img {
+	border: 3px groove black;
+}
+
+.main-text {
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+	#skill {
+		margin-top: 20px;
+	}
+}
+
+#about-box .row {
+	text-align: center;
+}
+
+/*Story*/
+
+#story {
+/*Add a background image*/
+  background-image: url("../img/sheep.jpg");
+/*Give the background a fixed position does it not scroll when you scroll*/
+  background-attachment: fixed;
+ /*Have the background cover the entire div section*/
+  background-size: cover;
+
+  margin-top: 20px;
+}
+
+#story p {
+	color: #FCFCFC;
+  font-family: 'Arvo';
+  font-size: 17px;
+}
+
+#story h3 {
+	color: #FCFCFC;
+  font-family: 'Arvo';
+  font-size: 26px;
+}
+
+.main-text {
+	width: 65%;
+	margin: 0 auto;
+	padding-bottom: 30px; 
+}
+
 /*Contact Styles*/
+
 #contact {
 	/*Add a background image*/
     background-image: url("../img/desk.jpg");
@@ -122,7 +301,6 @@ body {
 	}
 }
 
-
 #contact h1 {
 	color: #262525;
 	font-family: 'Permanent Marker', serif;
@@ -142,59 +320,6 @@ body {
 	margin-bottom: 0px;
 }
 
-/*Navigation-Menu*/
-
-.navbar {
-	padding: 10px;
-}
-
-.projectName {
-	color: white !important;
-	background-color: black;
-	text-decoration: none;
-	font-family: 'Pathway Gothic One', serif;
-	font-weight: 100;
-	font-size: 1.2em;
-}
-
-.navbar {
-	background-color: #FCFCFC;
-}
-
-/*.navbar ul li {
-	font-variant: small-caps;
-}*/
-
-.navbar ul li a {
-	text-decoration: none;
-	font-size: 21px;
-	transition: color 600ms;
-	-webkit-transition: color 600ms; 
-	font-family: 'Pathway Gothic One', serif;
-
-}
-
-.navbar a:hover {
-	/*font-variant: none;*/
-	color: #ff0;
-}
-
-li, .nav>a {
-	font-family: Georgia, Book Antiqua, Palatino, serif;
-}
-
-.anchor {
-	padding-top: 60px;
-}
-
-.dropdown-menu li a {
-	color: black;
-}
-
-.navbar-toggle {
-	background-color: black;
-}
-
 /*FAQ Styles*/
 
 .panel-body,
@@ -206,135 +331,21 @@ li, .nav>a {
 	background-color: #B1EDA6;
 }
 
-/*Carousel*/
+/*All Page styles*/
 
-@media (max-width: 992px) {
-	#index {
-		display: none;
-	}	
-}
-
-.carousel-caption h3 {
-	font-size: 1.2em;
-	font-family: 'Pathway Gothic One', serif;
-}
-
-.quote-display {
-	font-family: 'Allura';
-	font-size: 1.3em;
-}
-
-#carousel-example-generic {
-	margin-top: 71px;
-}
-
-.item img {
-	max-height: 500px;
-}
-
-.carousel {
-	margin-left: -15px;
-	margin-right: -15px;
-}
-
-@media (max-width: 992px) {
-
-}
-
-/*Grid*/
-
-#work h2 {
+.title {
 	text-align: center;
-	margin: 30px 0 ;
+	color: #262525;
+	height: 70px;
 }
 
-.box img {
-		padding: 15px 5px;
-	}
-
-@media (max-width: 768px) {
-	.box img {
-		margin: 30px auto;
-	}
-
-	#work h2{
-		margin: 30px 0 20px;
-	}
-}
-
-/*about page*/
-
-#image {
-	max-width: 400px;
-		}
-
-#skill h2, 
-#skill li,
-#intro h2,
-#intro p {
-	padding: 0 20px;
-	font-family: 'Open Sans', sans-serif;
-}
-
-#skill h2 {
-	padding-bottom: 10px;
-}
-
-#skill li {
-	padding: 20px;
-}
-
-#skill {
-	background-color: #73C4B0;
-	text-align: center;
-	padding-bottom: 20px;
-}
-
-#intro p,
-#intro h2 {
-	padding: 10px;
-	margin-top: 0;
-}
-
-.col-md-4 img {
-	width: 100%;
-	border: 3px groove black;
-}
-
-.main-text {
-	padding-top: 40px;
-	padding-bottom: 10px;
-}
-
-@media (max-width: 992px) {
-	#skill {
-		margin-top: 20px;
-	}
-}
-
-#about-box .row {
-	text-align: center;
-}
-
-
-
-/*Story*/
-
-#story {
-/*Add a background image*/
-  background-image: url("../img/sheep.jpg");
-/*Give the background a fixed position does it not scroll when you scroll*/
-  background-attachment: fixed;
- /*Have the background cover the entire div section*/
-  background-size: cover;
-
-  margin-top: 20px;
-}
-
-.main-text {
-	width: 65%;
-	margin: 0 auto;
-	padding-bottom: 30px; 
+#about,
+#work, 
+#faq, 
+#contact,
+#work1,
+#work2 {
+	margin-bottom: 40px;
 }
 
 /*Typography*/
@@ -342,7 +353,7 @@ li, .nav>a {
 h1,
 h2,
 h3 {
-  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Futura, Arial, sans-serif;
 }
 
 .title h1 {
@@ -352,22 +363,4 @@ h3 {
 	margin: 5px 0px;
 	line-height: 60px;
 	width: 100%
-}
-
-
-#skill h3 {
-	text-align: center;
-	text-transform: uppercase;
-}
-
-#story p {
-	color: #FCFCFC;
-  font-family: 'Arvo';
-  font-size: 17px;
-}
-
-#story h3 {
-	color: #FCFCFC;
-  font-family: 'Arvo';
-  font-size: 26px;
 }
