@@ -205,25 +205,30 @@ li, .nav>a {
 	max-width: 400px;
 		}
 
-#skill, #intro {
+#skill h2, 
+#skill li,
+#intro h2,
+#intro p {
 	padding: 0 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#skill h2 {
+	padding-bottom: 10px;
+}
+
+#skill li {
+	padding: 20px;
 }
 
 #skill {
 	background-color: #73C4B0;
-	padding-top: 20px;
-	padding-bottom: 25px;
 	text-align: center;
-}
-
-#skill li {
-	font-family: 'Lato';
 }
 
 #intro p,
 #intro h2 {
 	padding: 10px;
-	font-family: 'Lato';
 }
 
 .col-md-4 img {
@@ -233,6 +238,12 @@ li, .nav>a {
 
 .main-text {
 	padding-top: 40px;
+}
+
+@media (max-width: 992px) {
+	#skill {
+		margin-top: 20px;
+	}
 }
 
 /*Story*/
