@@ -32,13 +32,13 @@ body {
 /*Contact Styles*/
 #contact {
 	/*Add a background image*/
-    background-image: url("../img/dunloe_pan.jpg");
+    background-image: url("../img/desk.jpg");
 	/*Give the background a fixed position does it not scroll when you scroll*/
     background-attachment: fixed;
    /*Have the background cover the entire div section*/
     background-size: cover;
 	
-    padding-top: 0;
+    /*padding-top: 0;*/
     height: 500px;
 		font-family: 'Arvo', sans-serif;
 		font-size: 1.5em;
@@ -46,7 +46,7 @@ body {
 
 .contact-info,
 .contact-info2 {
-	margin-top: 50px;
+	margin-top: 30px;
 	color: white;
 	text-shadow: 1px 1px black;
 	font-weight: 500;
@@ -74,13 +74,17 @@ body {
 
 
 #contact h1 {
-	color: #86B1C0;
+	color: #262525;
 	font-family: 'Permanent Marker', serif;
-	font-size: 3em;
-	text-shadow: 2px 2px black;
+	font-size: 2.5em;
+	text-shadow: 1px 1px #BF654B;
 	margin: 5px 0px;
 	line-height: 60px;
 	width: 100%
+}
+
+.contact-row p {
+	margin-top: 15px;
 }
 
 #contact {
