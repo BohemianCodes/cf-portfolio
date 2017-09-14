@@ -216,11 +216,12 @@ li, .nav>a {
 
 .carousel-caption h3 {
 	font-size: 1.2em;
+	font-family: 'Pathway Gothic One', serif;
 }
 
 .quote-display {
 	font-family: 'Allura';
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 #carousel-example-generic {
@@ -292,6 +293,7 @@ li, .nav>a {
 #intro p,
 #intro h2 {
 	padding: 10px;
+	margin-top: 0;
 }
 
 .col-md-4 img {
@@ -301,6 +303,7 @@ li, .nav>a {
 
 .main-text {
 	padding-top: 40px;
+	padding-bottom: 10px;
 }
 
 @media (max-width: 992px) {
