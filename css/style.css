@@ -14,7 +14,7 @@ body {
 
 .projectName {
 	color: white !important;
-	background-color: black;
+	background-color: #262525;
 	text-decoration: none;
 	font-family: 'Pathway Gothic One', serif;
 	font-weight: 100;
@@ -37,16 +37,16 @@ body {
 	color: #ff0;
 }
 
+.navbar-inverse .navbar-nav>.active>a {
+	background-color: #262525;
+}
+
 .anchor {
 	padding-top: 60px;
 }
 
 .dropdown-menu li a {
 	color: black;
-}
-
-.navbar-toggle {
-	background-color: black;
 }
 
 /*Carousel*/
@@ -178,14 +178,14 @@ body {
 }
 
 #skill {
-	background-color: #73C4B0;
+	background-color: #85DDD0;
 	text-align: center;
 	padding-bottom: 20px;
 }
 
-#skill h3 {
+#skill h2 {
 	text-align: center;
-	text-transform: uppercase;
+	color: #34495e;
 }
 
 #intro p,
@@ -202,11 +202,6 @@ body {
 
 .col-md-4 img {
 	border: 3px groove black;
-}
-
-.main-text {
-	padding-top: 40px;
-	padding-bottom: 10px;
 }
 
 @media (max-width: 992px) {
@@ -236,18 +231,21 @@ body {
 	color: #FCFCFC;
   font-family: 'Arvo';
   font-size: 17px;
+  text-shadow: 1px 1px black;
 }
 
 #story h3 {
 	color: #FCFCFC;
   font-family: 'Arvo';
   font-size: 26px;
+  text-shadow: 1px 1px black;
 }
 
 .main-text {
 	width: 65%;
 	margin: 0 auto;
 	padding-bottom: 30px; 
+	padding-top: 40px;
 }
 
 /*Contact Styles*/
@@ -328,7 +326,7 @@ body {
 }
 
 .panel-default>.panel-heading {
-	background-color: #B1EDA6;
+	background-color: #85DDD0 ;
 }
 
 /*All Page styles*/
