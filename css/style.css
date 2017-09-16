@@ -41,6 +41,10 @@ body {
 	background-color: #262525;
 }
 
+.navbar-toggle {
+	background-color: #262525;
+}
+
 .anchor {
 	padding-top: 60px;
 }
