@@ -259,7 +259,7 @@ body {
     background-size: cover;
 	
     /*padding-top: 0;*/
-    height: 500px;
+  /*  height: 500px;*/
 		font-family: 'Arvo', sans-serif;
 		font-size: 1.5em;
 }
@@ -316,6 +316,28 @@ body {
 #contact {
 	margin-top: 60px;
 	margin-bottom: 0px;
+}
+
+/*Contact-Form*/
+
+.form-control {
+	width: 40%;
+}
+
+.form-group {
+	padding: 10px 0px;
+	position: relative;
+  text-align: center;
+  top: 30%;
+  left: 30%;
+}
+
+.button {
+	padding: 20px 0px;
+	position: relative;
+  text-align: center;
+  top: 30%;
+  left: 30%;
 }
 
 /*FAQ Styles*/
