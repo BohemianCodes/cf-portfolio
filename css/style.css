@@ -339,6 +339,12 @@ body {
 	padding-bottom: 15px;
 }
 
+#form-button {
+	color: #262525;
+	background-color: #C6D195;
+	border: 1.5px solid #fff;
+}
+
 /*FAQ Styles*/
 
 .panel-body,
