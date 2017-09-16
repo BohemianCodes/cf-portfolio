@@ -310,7 +310,7 @@ body {
 }
 
 .contact-row p {
-	margin-top: 15px;
+	margin-top: 5px;
 }
 
 #contact {
@@ -321,23 +321,15 @@ body {
 /*Contact-Form*/
 
 .form-control {
-	width: 40%;
+	width: 50%;
 }
 
 .form-group {
-	padding: 10px 0px;
-	position: relative;
-  text-align: center;
-  top: 30%;
-  left: 30%;
+	padding: 5px 0px;
 }
 
 .button {
-	padding: 20px 0px;
-	position: relative;
-  text-align: center;
-  top: 30%;
-  left: 30%;
+	padding-bottom: 15px;
 }
 
 /*FAQ Styles*/
