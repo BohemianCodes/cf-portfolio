@@ -265,7 +265,7 @@ body {
 }
 
 .contact-info,
-.contact-info2 {
+.contact-form {
 	margin-top: 30px;
 	color: white;
 	text-shadow: 1px 1px black;
@@ -273,7 +273,7 @@ body {
 }
 
 .contact-info span:hover,
-.contact-info2 span:hover {
+.contact-form span:hover {
 	color: #990000;
 }
 
@@ -288,12 +288,7 @@ body {
 	text-align: right;
 }
 
-.contact-info2 p {
-	text-align: left;
-}
-
 @media (max-width: 768px) {
-	.contact-info2 p,
 	.contact-info p {
 		text-align: center;
 	}
@@ -322,6 +317,18 @@ body {
 
 .form-control {
 	width: 50%;
+}
+
+@media (max-width: 1200px) {
+	.form-control {
+		width: 80%;
+	}
+}
+
+@media (max-width: 992px) {
+	.form-control {
+		width: 100%;
+	}
 }
 
 .form-group {
