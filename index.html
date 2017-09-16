@@ -27,6 +27,17 @@
 
   <body data-spy="scroll" data-target=".navbar">
 
+    <!-- Facebook JS -->
+    <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+
     <!-- Navigation Bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
@@ -242,6 +253,20 @@
          <hr>
     </div> <!-- end work 2 container -->
 
+    <!-- WORK 3 -->
+    <div class="container" id="work3">
+      <div class="title">
+        <h1>Video Project</h1>
+      </div> <!-- end title -->
+    </div> <!-- end container-fluid -->
+
+    <div class="container" id="video_embed">
+      <div class="col-xs-12 text-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bH3uptC7gXE?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <hr>
+    </div> <!-- end container work 3 -->
+
     <!-- Contact Section -->
     <div class="container-fluid anchor" id="contact">
       <div class="title">
@@ -297,7 +322,7 @@
           </div>
           <div id="collapseTwo" class="panel-collapse collapse">
             <div class="panel-body">
-              Sure, please add me on Twitter: @Simbolize
+
             </div>
           </div>
         </div>
@@ -319,6 +344,19 @@
        <hr>
     </div> <!-- end faq -->
     
+    <footer>
+      <p>&copy; Eliane 2017</p>
+      <div class="fb-like social_media" data-href="https://www.facebook.com/bohemian.codes/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true">
+      </div>
+
+      <!-- Twitter Follow Button -->
+      <div>
+        <a href="https://twitter.com/Simbolize" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @Simbolize</a>
+      </div>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+           
+    </footer>
 
 
 
@@ -330,6 +368,8 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Can place script tags with JavaScript files here -->
+
+    <!-- Smooth Scrolling JS -->
     <script type="text/javascript">
       var $root = $('html, body');
 
@@ -347,6 +387,7 @@
         return false;
       });
     </script>
+
 
   </body>
 </html>
