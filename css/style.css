@@ -157,9 +157,12 @@ body {
 
 /*About Section*/
 
-#image {
+#image img {
 	max-width: 400px;
-		}
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
 
 #skill h2, 
 #skill li,
@@ -258,8 +261,6 @@ body {
    /*Have the background cover the entire div section*/
     background-size: cover;
 	
-    /*padding-top: 0;*/
-  /*  height: 500px;*/
 		font-family: 'Arvo', sans-serif;
 		font-size: 1.5em;
 }
