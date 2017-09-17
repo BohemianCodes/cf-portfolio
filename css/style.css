@@ -362,7 +362,6 @@ body {
 }
 
 .learnmore h2 {
-
 	font-family: 'Amatic SC', serif;
 	font-size: 4em;
 	text-shadow: 1px 1px #FA9958;
@@ -372,13 +371,19 @@ body {
 }
 
 .modal-button {
-  float: right;
-  padding: 15px;
-  margin-top: 20px;
+	float: right;
+	padding: 15px;
+	margin-top: 20px;
 }
 
 #faq .row {
 	margin: 0px;
+}
+
+#modalembed {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
 }
 
 /*Footer*/
