@@ -299,10 +299,10 @@ body {
 	}
 }
 
-#contact h1 {
+#contact h2 {
 	color: #262525;
-	font-family: 'Permanent Marker', serif;
-	font-size: 2.5em;
+	font-family: 'Amatic SC', serif;
+	font-size: 3em;
 	text-shadow: 1px 1px #BF654B;
 	margin: 5px 0px;
 	line-height: 60px;
@@ -361,6 +361,26 @@ body {
 	background-color: #85DDD0 ;
 }
 
+.learnmore h2 {
+
+	font-family: 'Amatic SC', serif;
+	font-size: 4em;
+	text-shadow: 1px 1px #FA9958;
+	color: #262525;
+	text-align: left;
+	float: left;
+}
+
+.modal-button {
+  float: right;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+#faq .row {
+	margin: 0px;
+}
+
 /*Footer*/
 
 .social_media,
@@ -398,11 +418,13 @@ h3 {
 	font-family: 'Open Sans', Futura, Arial, sans-serif;
 }
 
-.title h1 {
-	font-family: 'Permanent Marker', serif;
-	font-size: 3em;
+.title h2 {
+	font-family: 'Amatic SC', serif;
+	font-size: 4em;
 	text-shadow: 1px 1px #FA9958;
 	margin: 5px 0px;
 	line-height: 60px;
 	width: 100%
 }
+
+
