@@ -102,7 +102,7 @@
     </div><!-- end carousel container -->
 
     <!-- hero image for smaller screens -->
-    <div class="hero-image">
+    <div class="hero-image" id ="hero-image">
       <div class="hero-text">
         <h1>Eliane Zacharias</h1>
         <p>Web Developer &amp; World Traveller</p>
@@ -169,6 +169,31 @@
           <div class="col-md-4 col-sm-6 col-xs-12" id="intro">
             <h2>The Short Story</h2>
             <p>After a decade of travelling, I decided to return to Berlin and make a passion my profession. </p>
+
+            <!-- Modal Button -->
+            <div class="video_button">
+              <button class="btn btn-primary" data-toggle="modal" data-target=".sierra_nevada">What I like</button>
+            </div> <!-- end modal button -->
+
+            <!-- Modal Content -->
+            <div class="modal fade sierra_nevada" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">What I like</h4>
+                    </div>
+
+                    <div class="modal-body">
+                    <p>Doing 80 miles on a freeway in California on a solo Roadrip, for example.</p><br>
+                      
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AwxjJkJP64c?rel=0" frameborder="0" allowfullscreen></iframe>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div> <!-- end intro -->
 
           <div class="col-md-4 col-xs-12" id="skill">
@@ -257,7 +282,7 @@
     <hr>
 
     <!-- Contact Section -->
-    <div class="container-fluid anchor" id="contact">
+    <div class="container-fluid anchor" id="contact" data-stellar-background-ratio="0.1">
       <div class="title">
         <h2>Contact Me &hearts;</h2>
       </div> <!-- end title -->
@@ -417,6 +442,30 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Can place script tags with JavaScript files here -->
+
+    <!-- Stellar min js -->
+    <script src="js/jquery.stellar.min.js"></script>
+    <script>
+      $(window).stellar();
+      $('#contact').stellar();
+
+    </script>
+
+   <!--  JS that causes the iframe video to stop when modal is exited -->
+    <script>
+      $(document).ready(function(){
+      $('.sierra_nevada').each(function(){
+            var src = $(this).find('iframe').attr('src');
+
+        $(this).on('click', function(){
+
+            $(this).find('iframe').attr('src', '');
+            $(this).find('iframe').attr('src', src);
+
+            });
+        });
+      });
+    </script>
 
     <!-- Smooth Scrolling JS -->
     <script type="text/javascript">
