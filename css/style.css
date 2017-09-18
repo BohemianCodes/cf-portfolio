@@ -90,6 +90,7 @@ body {
 @media (max-width: 992px) {
 	.hero-image {
 		background-image: url("../img/road_dust.jpg");
+		background-attachment: fixed;
 		background-size: cover;
 		height: 500px;
 		margin-top: 71px;
