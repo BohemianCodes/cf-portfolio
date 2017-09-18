@@ -6,6 +6,14 @@ body {
 	position: relative;
 }
 
+/*Typography*/
+
+h1,
+h2,
+h3 {
+	font-family: 'Open Sans', Futura, Arial, sans-serif;
+}
+
 /*Navigation-Menu*/
 
 .navbar {
@@ -52,10 +60,6 @@ body {
 .anchor {
 	padding-top: 60px;
 }
-
-
-
-
 
 /*Carousel*/
 
@@ -233,7 +237,7 @@ body {
 	background-image: url("../img/coffee_canada2.jpg");
 /*Give the background a fixed position does it not scroll when you scroll*/
 	background-attachment: fixed;
- /*Have the background cover the entire div section*/
+/*Have the background cover the entire div section*/
 	background-size: cover;
 
 	margin-top: 20px;
@@ -264,15 +268,15 @@ body {
 /*Contact Styles*/
 
 #contact {
-	/*Add a background image*/
-		background-image: url("../img/desk.jpg");
-	/*Give the background a fixed position does it not scroll when you scroll*/
-		background-attachment: fixed;
-	 /*Have the background cover the entire div section*/
-		background-size: cover;
-	
-		font-family: 'Arvo', sans-serif;
-		font-size: 1.5em;
+/*Add a background image*/
+	background-image: url("../img/desk.jpg");
+/*Give the background a fixed position does it not scroll when you scroll*/
+	background-attachment: fixed;
+ /*Have the background cover the entire div section*/
+	background-size: cover;
+
+	font-family: 'Arvo', sans-serif;
+	font-size: 1.5em;
 }
 
 .contact-info,
@@ -386,7 +390,7 @@ body {
 	margin: 0px;
 }
 
-#modalembed {
+#modal-embed {
 	height: 500px;
 	width: 100%;
 	padding: 10px;
@@ -394,7 +398,6 @@ body {
 
 /*Footer*/
 
-.social_media,
 .twitter-follow-button {
 	margin: 10px;
 }
@@ -411,24 +414,6 @@ footer {
 	height: 70px;
 }
 
-#about,
-#work, 
-#faq, 
-#contact,
-#work1,
-#work2,
-#work3 {
-	margin-bottom: 40px;
-}
-
-/*Typography*/
-
-h1,
-h2,
-h3 {
-	font-family: 'Open Sans', Futura, Arial, sans-serif;
-}
-
 .title h2 {
 	font-family: 'Amatic SC', serif;
 	font-size: 4em;
@@ -438,6 +423,12 @@ h3 {
 	width: 100%
 }
 
-
-
-
+#about,
+#work, 
+#faq, 
+#contact,
+#work1,
+#work2,
+#work3 {
+	margin-bottom: 40px;
+}
