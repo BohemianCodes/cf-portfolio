@@ -29,7 +29,7 @@ body {
 	background-color: #FCFCFC;
 }
 
-.navbar ul li a {
+.navbar a {
 	text-decoration: none;
 	font-size: 21px;
 	transition: color 600ms;
@@ -255,6 +255,7 @@ body {
 	
 	font-size: 26px;
 	text-shadow: 1px 1px black;
+	margin-bottom: 30px;
 }
 
 #story .main-text {
@@ -316,6 +317,10 @@ body {
 	margin-bottom: 0px;
 }
 
+.heart:hover {
+	color: #990000;
+}
+
 /*Contact-Form*/
 
 .form-control {
@@ -346,6 +351,12 @@ body {
 	color: #262525;
 	background-color: #C6D195;
 	border: 1.5px solid #fff;
+	transition: background-color 0.7s ease, border-color 0.5s ease;
+}
+
+#form-button:hover {
+	background-color: #CF8941;
+	border-color: #4D3543;
 }
 
 /*FAQ Styles*/
