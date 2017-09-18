@@ -6,21 +6,13 @@ body {
 	position: relative;
 }
 
-/*Typography*/
-
-h1,
-h2,
-h3 {
-	font-family: 'Open Sans', Futura, Arial, sans-serif;
-}
-
 /*Navigation-Menu*/
 
 .navbar {
 	padding: 10px;
 }
 
-.projectName {
+.project-name {
 	color: white !important;
 	background-color: #262525;
 	text-decoration: none;
@@ -29,7 +21,7 @@ h3 {
 	font-size: 1.2em;
 }
 
-.navbar-brand:hover {
+.project-name:hover {
 	background-color: #262525 !important;
 }
 
@@ -57,6 +49,7 @@ h3 {
 	background-color: #262525;
 }
 
+/*ensures visibility of title when menu is used*/
 .anchor {
 	padding-top: 60px;
 }
@@ -84,7 +77,7 @@ h3 {
 	margin-top: 71px;
 }
 
-.item img {
+.carousel-inner .item img {
 	max-height: 500px;
 }
 
@@ -150,12 +143,12 @@ h3 {
 	margin: 30px 0 ;
 }
 
-.box img {
+.work-box img {
 		padding: 15px 5px;
 	}
 
 @media (max-width: 768px) {
-	.box img {
+	.work-box img {
 		margin: 30px auto;
 	}
 
@@ -168,9 +161,13 @@ h3 {
 	margin-top: 25px;
 }
 
+#goals h2 {
+	font-family: 'Open Sans', Futura, Arial, sans-serif;
+}
+
 /*About Section*/
 
-#image img {
+#selfie img {
 	max-width: 400px;
 	display: inline-block;
 	text-align: center;
@@ -244,21 +241,24 @@ h3 {
 	padding-top: 80px;
 }
 
-#story p {
+#story {
 	color: #FCFCFC;
 	font-family: 'Arvo';
+}
+
+#story p {
+	
 	font-size: 17px;
 	text-shadow: 1px 1px black;
 }
 
 #story h3 {
-	color: #FCFCFC;
-	font-family: 'Arvo';
+	
 	font-size: 26px;
 	text-shadow: 1px 1px black;
 }
 
-.main-text {
+#story .main-text {
 	width: 60%;
 	margin: 0 auto;
 	padding-bottom: 100px; 
@@ -279,6 +279,16 @@ h3 {
 	font-size: 1.5em;
 }
 
+#contact h2 {
+	color: #262525;
+	font-family: 'Amatic SC', serif;
+	font-size: 3em;
+	text-shadow: 1px 1px #BF654B;
+	margin: 5px 0px;
+	line-height: 60px;
+	width: 100%
+}
+
 .contact-info,
 .contact-form {
 	margin-top: 30px;
@@ -292,13 +302,6 @@ h3 {
 	color: #990000;
 }
 
-.contact-row p {
-	color: white;
-	text-shadow: 1px 1px black;
-	font-weight: 500;
-	text-align: center;
-}
-
 .contact-info p {
 	text-align: right;
 }
@@ -307,20 +310,6 @@ h3 {
 	.contact-info p {
 		text-align: center;
 	}
-}
-
-#contact h2 {
-	color: #262525;
-	font-family: 'Amatic SC', serif;
-	font-size: 3em;
-	text-shadow: 1px 1px #BF654B;
-	margin: 5px 0px;
-	line-height: 60px;
-	width: 100%
-}
-
-.contact-row p {
-	margin-top: 5px;
 }
 
 #contact {
@@ -350,8 +339,8 @@ h3 {
 	padding: 5px 0px;
 }
 
-.button {
-	padding-bottom: 15px;
+.submit-button-div {
+	padding-bottom: 30px;
 }
 
 #form-button {
