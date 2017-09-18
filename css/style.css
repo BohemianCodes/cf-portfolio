@@ -21,6 +21,10 @@ body {
 	font-size: 1.2em;
 }
 
+.navbar-brand:hover {
+	background-color: #262525 !important;
+}
+
 .navbar {
 	background-color: #FCFCFC;
 }
@@ -49,9 +53,9 @@ body {
 	padding-top: 60px;
 }
 
-.dropdown-menu li a {
-	color: black;
-}
+
+
+
 
 /*Carousel*/
 
