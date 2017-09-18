@@ -230,13 +230,14 @@ body {
 
 #story {
 /*Add a background image*/
-	background-image: url("../img/sheep.jpg");
+	background-image: url("../img/coffee_canada2.jpg");
 /*Give the background a fixed position does it not scroll when you scroll*/
 	background-attachment: fixed;
  /*Have the background cover the entire div section*/
 	background-size: cover;
 
 	margin-top: 20px;
+	padding-top: 80px;
 }
 
 #story p {
@@ -254,9 +255,9 @@ body {
 }
 
 .main-text {
-	width: 65%;
+	width: 60%;
 	margin: 0 auto;
-	padding-bottom: 30px; 
+	padding-bottom: 100px; 
 	padding-top: 40px;
 }
 
