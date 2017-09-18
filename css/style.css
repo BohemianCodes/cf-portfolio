@@ -207,6 +207,12 @@ body {
 	margin-top: 0;
 }
 
+#intro a:hover {
+	color: #4a55ba;
+	text-decoration: none;
+	font-style: italic;
+}
+
 @media (max-width: 768px) {
 	#intro {
 		margin-top: 20px;
