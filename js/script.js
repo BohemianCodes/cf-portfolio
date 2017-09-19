@@ -49,7 +49,7 @@ $(document).ready(function(){
 			console.log(comment);
 
 			if (comment === "") {
-				$(".message-box").css("border", "1.5px solid red");
+				$(".message-box").css("border": "1.5px solid red");
 				} else {
 				$("#visible-comment").html(comment);
 				$(".message-box").hide();
