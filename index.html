@@ -162,7 +162,7 @@
         <div class="row">
 
           <div class="col-md-4 col-sm-6 col-xs-12" id="selfie">
-            <img src="img/selfie.jpg" alt="Picture of myself" class="img-responsive">
+            <img src="img/cali1.jpg" alt="Picture of myself in California" class="img-responsive">
           </div><!-- end image -->
 
           <div class="col-md-4 col-sm-6 col-xs-12" id="intro">
@@ -311,6 +311,8 @@
               <label for="message" class="sr-only">Message</label>
               <textarea class="message-box form-control" id="message" name="message" style="resize:none" cols="40" rows="5" placeholder="Your Message*" required="required"></textarea>
             </div>
+            <p id="visible-comment"></p>
+            <p id="thankyou"></p>
             <div class="submit-button-div">
               <button type="submit" class="btn btn-default" id="form-button">Submit</button>
             </div>
@@ -424,10 +426,10 @@
 
       <!-- Twitter Follow Button -->
         <div>
-          <a href="https://twitter.com/Simbolize" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @Simbolize</a>
+          <a href="https://twitter.com/Simbolize" class="twitter-follow-button" data-show-count="false" data-size="large">Follow@Simbolize</a>
         </div>
 
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <script></script>
 
       <p>&copy; Eliane 2017</p>
 
@@ -445,54 +447,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Can place script tags with JavaScript files here -->
 
-    <!-- Tooltips jQuery -->
-    <script>
-     $(function () {
-       $('#blog_link').tooltip();
-     });
-    </script>
-
-    <script>
-      $(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-      });
-    </script>
-
-   <!--  JS that causes the iframe video to stop when modal is exited -->
-    <script>
-      $(document).ready(function(){
-      $('.sierra_nevada').each(function(){
-            var src = $(this).find('iframe').attr('src');
-
-        $(this).on('click', function(){
-
-            $(this).find('iframe').attr('src', '');
-            $(this).find('iframe').attr('src', src);
-
-            });
-        });
-      });
-    </script>
-
-    <!-- Smooth Scrolling JS -->
-    <script type="text/javascript">
-      var $root = $('html, body');
-
-      $('.navbar-nav a').click(function() {
-        var href = $.attr(this, 'href');
-
-        if (href != undefined && href != '#') {
-          $root.animate({
-            scrollTop: $(href).offset().top
-          }, 500, function () {
-            window.location.hash = href;
-          });
-        }
-
-        return false;
-      });
-    </script>
-
+    <script src="js/script.js"></script>
 
   </body>
 </html>

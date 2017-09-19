@@ -366,6 +366,21 @@ body {
 	border-color: #4D3543;
 }
 
+#visible-comment {
+	font-size: 0.9em;
+}
+
+#thankyou {
+	color: #262525;
+	background-color: #C6D195;
+	border-radius: 4px;
+	font-size: 0.7em;
+	padding: 8px;
+	text-shadow: none;
+	display: inline-block;
+	font-weight: 100;
+}
+
 /*FAQ Styles*/
 
 .panel-body,
@@ -374,7 +389,7 @@ body {
 }
 
 .panel-default>.panel-heading {
-	background-color: #85DDD0 ;
+	background-color: #85DDD0;
 }
 
 .learnmore h2 {
