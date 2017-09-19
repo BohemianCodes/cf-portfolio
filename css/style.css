@@ -296,9 +296,13 @@ body {
 	width: 100%
 }
 
+.contact-info {
+	padding-bottom: 68px;
+}
 .contact-info,
 .contact-form {
 	margin-top: 30px;
+	margin-bottom: 20px;
 	color: white;
 	text-shadow: 1px 1px black;
 	font-weight: 500;
