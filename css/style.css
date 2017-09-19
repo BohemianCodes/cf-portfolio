@@ -370,6 +370,11 @@ body {
 	border-color: #4D3543;
 }
 
+#char-count {
+	font-size: 0.6em;
+	text-shadow: none;
+}
+
 #visible-comment {
 	font-size: 0.9em;
 }
