@@ -77,11 +77,11 @@ $(document).ready(function(){
 
 // Work Section
 		for(var i = 0; i < works.length; ++i ) {
-			$("#work-row").append(" \
+			$("#work-row").append(' \
 			    <div class="col-md-3 col-sm-6 work-box"> \
 			    <img src="img/iarthar.jpg" alt="Jump to Iarthar Project" \
 			     class="img-responsive"></a></div> \
-			  ");
+			  ');
 		};
 
 
