@@ -77,13 +77,23 @@ $(document).ready(function(){
 
 // Work Section
 		for(var i = 0; i < works.length; ++i ) {
-			console.log("hello");
 			$(".work-row").append(' \
 			    <div class="col-md-3 col-sm-6 work-box"> \
-			    <img src="img/iarthar.jpg" alt="Jump to Iarthar Project" \
+			    <img src="' + works[i] + '" \
 			     class="img-responsive"></a></div> \
 			  ');
+
+			var images = $(".work-row img");
+
+			if(i%2 === 0) {
+				$(images[i]).css("border", "2px solid salmon");
+			} else {
+				$(images[i]).css("border", "2px solid DodgerBlue");
+			}
+			
 		};
+
+			
 
 
 }); //end document Ready function
