@@ -56,7 +56,8 @@ $(document).ready(function(){
 				$("#form-button").hide();
 				$("#name").hide();
 				$("#email").hide();
-				$("#thankyou").fadeIn(600)
+				$("#thankyou").fadeIn(600);
+				$("#char-count").hide();
 				$("#thankyou").html("I have received your message, thank you!");
 			}
 			return false;
