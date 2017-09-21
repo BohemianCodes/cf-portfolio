@@ -412,6 +412,13 @@ body {
 	font-weight: 100;
 }
 
+/*Google Maps*/
+
+#map-container iframe {
+	margin: 20px auto;
+	display: block;
+}
+
 /*FAQ Styles*/
 
 .panel-body,
