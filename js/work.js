@@ -1,7 +1,8 @@
 var works = [
 	{
 		title: "Iarthar Project",
-		pic: "img/iarthar.jpg"
+		pic: "img/iarthar.jpg",
+		url: "http://iarthar.bohemiancodes.com"
 	},
 	{
 		title: "Finding Neverland",
