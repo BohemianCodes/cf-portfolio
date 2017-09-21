@@ -87,6 +87,8 @@ $(document).ready(function(){
 					</a>\
 					</div>\
 				');
+
+			console.log(works[i].title)
 		}; //end for-loop
 
 // Fade in and out of title when hovering over images
