@@ -76,19 +76,20 @@ $(document).ready(function(){
 			}
 		});
 
-// Work Section
+// Work Section - populating work samples from work.js file
+
 		for(var i = 0; i < works.length; ++i ) {
 			$(".work-row").append(' \
-			    <div class="col-md-3 col-sm-6 work-box"> \
-			    <a href="' + works[i].url +'" class="work-img">\
-			    <img class="img-responsive" src="' + works[i].pic + '">\
-			    <span class="info"><p class="proj-title">Title:</p>"' + works[i].title + '" </span>\
-			    </a>\
-			    </div>\
-			  ');
+					<div class="col-md-3 col-sm-6 work-box"> \
+					<a href="' + works[i].url +'" class="work-img">\
+					<img class="img-responsive" src="' + works[i].pic + '">\
+					<span class="info"><p class="proj-title">Title:</p>"' + works[i].title + '" </span>\
+					</a>\
+					</div>\
+				');
 		}; //end for-loop
 
-
+// Fade in and out of title when hovering over images
 		$(".work-img").mouseenter( function() {
 			$(".info", this).fadeIn();
 		});
@@ -97,7 +98,6 @@ $(document).ready(function(){
 			$(".info", this).fadeOut();
 		});
 
-		
 			
 
 

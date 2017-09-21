@@ -10,10 +10,10 @@ var works = [
 	},
 	{
 		title: "Bohemian Codes",
-  	pic: "img/bohemiancodes.jpg"
+		pic: "img/bohemiancodes.jpg"
 	},
 	{ 
 		title: "Coming Soon",
-  	pic: "img/coming_soon.jpg"
-  }
+		pic: "img/coming_soon.jpg"
+	}
 ]
