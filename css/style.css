@@ -417,6 +417,7 @@ body {
 #map-container iframe {
 	margin: 20px auto;
 	display: block;
+	width: 100%;
 }
 
 /*FAQ Styles*/
