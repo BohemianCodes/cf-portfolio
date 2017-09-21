@@ -86,9 +86,18 @@ $(document).ready(function(){
 			    </a>\
 			    </div>\
 			  ');
-			
-		};
+		}; //end for-loop
 
+
+		$(".work-img").mouseenter( function() {
+			$(".info", this).fadeIn();
+		});
+
+		$(".work-img").mouseleave( function() {
+			$(".info", this).fadeOut();
+		});
+
+		
 			
 
 
