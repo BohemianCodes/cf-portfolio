@@ -156,6 +156,28 @@ body {
 	}
 }
 
+.work-img {
+	display: block; /* needed to center the element with margin */
+	margin: auto; /* center the image inside the column if it's smaller */
+	max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+	position: relative; /* is needed for .info position: absolute to work */
+}
+.info {
+	display: none;
+	position: absolute; /* let's us move the text around and not worry about the image */
+	top: 15%; /* position the text 15% away from the top */
+  left: 22%;
+  color: #fff;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+}
+.proj-title {
+	font-weight: 100;
+}
+
 #portfolio-goals {
 	margin-top: 25px;
 }
