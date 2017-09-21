@@ -415,9 +415,11 @@ body {
 /*Google Maps*/
 
 #map-container iframe {
-	margin: 20px auto;
+	margin: 30px auto;
 	display: block;
 	width: 100%;
+	border: 3px solid black;
+	border-radius: 4px;
 }
 
 /*FAQ Styles*/
