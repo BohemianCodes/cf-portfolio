@@ -417,20 +417,17 @@ body {
 
 /*Google Maps*/
 
-#map-container iframe {
+#map-container  #map{
 	margin: 30px auto;
 	display: block;
 	width: 100%;
 	border: 3px solid black;
 	border-radius: 4px;
+	height: 400px;
 }
 
 /* Always set the map height explicitly to define the size of the div
 			 * element that contains the map. */
-#map {
-	height: 300px;
-  width: 100%;
-}
 
 /*FAQ Styles*/
 
