@@ -4,6 +4,9 @@ body {
 	background-color: #FCFCFC;
 	color: #34495e;
 	position: relative;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 /*Navigation-Menu*/
@@ -166,13 +169,13 @@ body {
 	display: none;
 	position: absolute; /* let's us move the text around and not worry about the image */
 	top: 15%; /* position the text 15% away from the top */
-  left: 22%;
-  color: #fff;
-  font-family: Futura;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.5em;
-  line-height: 1.6;
+	left: 22%;
+	color: #fff;
+	font-family: Futura;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	line-height: 1.6;
 }
 .proj-title {
 	font-weight: 100;
@@ -422,6 +425,13 @@ body {
 	border-radius: 4px;
 }
 
+/* Always set the map height explicitly to define the size of the div
+			 * element that contains the map. */
+#map {
+	height: 300px;
+  width: 100%;
+}
+
 /*FAQ Styles*/
 
 .panel-body,
@@ -511,3 +521,6 @@ footer p {
 .title-container {
 	margin-bottom: 40px;
 }
+
+/*Google Maps*/
+

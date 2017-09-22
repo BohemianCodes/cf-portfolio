@@ -1,6 +1,16 @@
 //Twitter Code
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
+
+//Google Maps
+var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 52.5230487, lng: 13.5076008},
+          zoom: 11
+        });
+      }
+
 $(document).ready(function(){
 
 // Smooth Scrolling 
