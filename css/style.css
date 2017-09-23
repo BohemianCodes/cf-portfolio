@@ -21,7 +21,7 @@ body {
 	text-decoration: none;
 	font-family: 'Pathway Gothic One', serif;
 	font-weight: 100;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 .project-name:hover {
@@ -46,6 +46,10 @@ body {
 
 .navbar-inverse .navbar-nav>.active>a {
 	background-color: #262525;
+}
+
+.navbar-inverse {
+	border-bottom: 1px solid #262525;
 }
 
 .navbar-toggle {
