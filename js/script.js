@@ -109,7 +109,7 @@ $(document).ready(function(){
 
 		for(var i = 0; i < works.length; ++i ) {
 			$(".work-row").append(' \
-					<div class="col-sm-4 work-box"> \
+					<div class="col-xs-4 work-box"> \
 					<a href="' + works[i].url +'" class="work-img">\
 					<img class="img-responsive" src="' + works[i].pic + '">\
 					<span class="info" id="' + works[i].id + '"><p class="proj-title"></p>' + works[i].title + ' </span>\

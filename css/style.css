@@ -106,12 +106,16 @@ body {
 
 /*Work (Grid)*/
 
+.work-row {
+	margin-bottom: 75px;
+}
+
 .work-img {
 	display: block; /* needed to center the element with margin */
 	margin: auto; /* center the image inside the column if it's smaller */
 	max-width: 300px; /* needs to be set to the width of your image files if they are relatively small */
 	position: relative; /* is needed for .info position: absolute to work */
-	text-align: center;
+	margin: 20px;
 }
 
 .work-img img {
