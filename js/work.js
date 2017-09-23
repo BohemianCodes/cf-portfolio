@@ -1,21 +1,16 @@
 var works = [
 	{
-		title: "Code Player",
-		pic: "img/codeplayer.jpg",
+		title: "Wordpress",
+		pic: "img/wordpress.png",
 		url: "http://bohemiancodes.com/CodePlayer/index.html"
 	},
 	{
-		title: "Reaction Game",
-		pic: "img/reactiongame.jpg",
+		title: "Javascript & jQuery",
+		pic: "img/js.png",
 		url: "http://bohemiancodes.com/reactiongame.html",
-		id: "reactiongame"
 	},
 	{
-		title: "Bohemian Codes",
-		pic: "img/bohemiancodes.jpg"
+		title: "Ruby on Rails",
+		pic: "img/rails64.png"
 	},
-	{ 
-		title: "Coming Soon",
-		pic: "img/coming_soon.jpg"
-	}
 ]
