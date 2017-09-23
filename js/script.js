@@ -112,7 +112,7 @@ $(document).ready(function(){
 					<div class="col-md-3 col-sm-6 work-box"> \
 					<a href="' + works[i].url +'" class="work-img">\
 					<img class="img-responsive" src="' + works[i].pic + '">\
-					<span class="info"><p class="proj-title">Title:</p>"' + works[i].title + '" </span>\
+					<span class="info" id="' + works[i].id + '"><p class="proj-title"></p>' + works[i].title + ' </span>\
 					</a>\
 					</div>\
 				');
@@ -127,7 +127,6 @@ $(document).ready(function(){
 		$(".work-img").mouseleave( function() {
 			$(".info", this).fadeOut();
 		});
-
 			
 
 

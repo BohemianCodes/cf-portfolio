@@ -1,12 +1,14 @@
 var works = [
 	{
-		title: "Iarthar Project",
-		pic: "img/iarthar.jpg",
-		url: "http://iarthar.bohemiancodes.com"
+		title: "Code Player",
+		pic: "img/codeplayer.jpg",
+		url: "http://bohemiancodes.com/CodePlayer/index.html"
 	},
 	{
-		title: "Finding Neverland",
-		pic: "img/finding.jpg"
+		title: "Reaction Game",
+		pic: "img/reactiongame.jpg",
+		url: "http://bohemiancodes.com/reactiongame.html",
+		id: "reactiongame"
 	},
 	{
 		title: "Bohemian Codes",
