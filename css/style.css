@@ -88,7 +88,8 @@ body {
 
 .hero-text h1 {
 	font-size: 4em;
-	text-shadow: 1px 1px black;
+	text-shadow: 1px 0px #F4F173;
+	color: #28524F;
 }
 
 .hero-text p {
@@ -97,10 +98,15 @@ body {
 }
 
 .hero-text a {
-	background-color: #FEFFDF;
+	background-color: #FCFCFC;
 	font-size: 1.5em;
 	color: #0D202F;
 	margin-top: 5px;
+}
+
+.hero-text a:hover {
+	transition: color 500ms;
+	transition: background-color 500ms;
 }
 
 
@@ -113,7 +119,7 @@ body {
 .work-img {
 	display: block; /* needed to center the element with margin */
 	margin: auto; /* center the image inside the column if it's smaller */
-	max-width: 300px; /* needs to be set to the width of your image files if they are relatively small */
+	max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
 	position: relative; /* is needed for .info position: absolute to work */
 	margin: 20px;
 }
@@ -126,11 +132,10 @@ body {
 	display: none;
 	position: absolute; /* let's us move the text around and not worry about the image */
 	top: 15%; /* position the text 15% away from the top */
-	left: 15%;
+	left: 25%;
 	color: #262525;
 	font-family: 'Pathway Gothic One';
 	text-transform: uppercase;
-	font-weight: 700;
 	letter-spacing: 0.3em;
 	line-height: 1.6;
 	font-size: 1.7em;
