@@ -7,28 +7,28 @@ var map;
 var myLatLng = {lat: 52.5230489, lng: 13.5076008}
 
 	function initMap() {
-			map = new google.maps.Map(document.getElementById('map'), {
-				center: myLatLng,
-				zoom: 12,
-				mapTypeId: 'hybrid',
+		map = new google.maps.Map(document.getElementById('map'), {
+			center: myLatLng,
+			zoom: 12,
+			mapTypeId: 'hybrid',
+		});
+
+		map.setTilt(45);
+
+		var image = 'http://cf.bohemiancodes.com/img/visit.png';
+		 var pin = new google.maps.Marker({
+				position: myLatLng,
+				map: map,
+				icon: image,
+				animation: google.maps.Animation.DROP,
+				title: 'Bohemian Codes Office',
 			});
 
-			map.setTilt(45);
-
-			var image = 'http://cf.bohemiancodes.com/img/visit.png';
-			 var pin = new google.maps.Marker({
-					position: myLatLng,
-					map: map,
-					icon: image,
-					animation: google.maps.Animation.DROP,
-					title: 'Bohemian Codes Office',
-				});
-
-			pin.addListener('click', function() {
-					map.setZoom(16);
-					map.setCenter(pin.getPosition());
-				});
-		}
+		pin.addListener('click', function() {
+				map.setZoom(16);
+				map.setCenter(pin.getPosition());
+			});
+	}
 
 $(document).ready(function(){
 
@@ -61,12 +61,12 @@ $(document).ready(function(){
 	$('.sierra_nevada').each(function(){
 			var src = $(this).find('iframe').attr('src');
 
-		$(this).on('click', function(){
+			$(this).on('click', function(){
 
-			$(this).find('iframe').attr('src', '');
-			$(this).find('iframe').attr('src', src);
+				$(this).find('iframe').attr('src', '');
+				$(this).find('iframe').attr('src', src);
 
-		});
+			});
 	});
 
 // Contact-Form jQuery. 
@@ -109,13 +109,13 @@ $(document).ready(function(){
 
 	for(var i = 0; i < works.length; ++i ) {
 		$(".work-row").append(' \
-				<div class="col-md-3 col-sm-6 work-box"> \
-				<a href="' + works[i].url +'" class="work-img">\
-				<img class="img-responsive" src="' + works[i].pic + '">\
-				<span class="info" id="' + works[i].id + '"><p class="proj-title"></p>' + works[i].title + ' </span>\
-				</a>\
-				</div>\
-			');
+			<div class="col-md-3 col-sm-6 work-box"> \
+			<a href="' + works[i].url +'" class="work-img">\
+			<img class="img-responsive" src="' + works[i].pic + '">\
+			<span class="info" id="' + works[i].id + '"><p class="proj-title"></p>' + works[i].title + ' </span>\
+			</a>\
+			</div>\
+		');
 
 	}; //end for-loop
 
