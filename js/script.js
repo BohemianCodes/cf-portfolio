@@ -16,19 +16,21 @@ var myLatLng = {lat: 52.5230489, lng: 13.5076008}
 		map.setTilt(45);
 
 		var image = 'http://cf.bohemiancodes.com/img/visit.png';
-		 var pin = new google.maps.Marker({
-				position: myLatLng,
-				map: map,
-				icon: image,
-				animation: google.maps.Animation.DROP,
-				title: 'Bohemian Codes Office',
-			});
+
+	 	var pin = new google.maps.Marker({
+			position: myLatLng,
+			map: map,
+			icon: image,
+			animation: google.maps.Animation.DROP,
+			title: 'Bohemian Codes Office',
+		});
 
 		pin.addListener('click', function() {
-				map.setZoom(16);
-				map.setCenter(pin.getPosition());
-			});
-	}
+			map.setZoom(16);
+			map.setCenter(pin.getPosition());
+		});
+	 } // end initMap function
+
 
 $(document).ready(function(){
 
