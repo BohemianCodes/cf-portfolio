@@ -61,14 +61,14 @@ $(document).ready(function(){
 
 // JS that causes the iframe video to stop when modal is exited
 	$('.sierra_nevada').each(function(){
-			var src = $(this).find('iframe').attr('src');
+		var src = $(this).find('iframe').attr('src');
 
-			$(this).on('click', function(){
+		$(this).on('click', function(){
 
-				$(this).find('iframe').attr('src', '');
-				$(this).find('iframe').attr('src', src);
+			$(this).find('iframe').attr('src', '');
+			$(this).find('iframe').attr('src', src);
 
-			});
+		});
 	});
 
 // Contact-Form jQuery. 
